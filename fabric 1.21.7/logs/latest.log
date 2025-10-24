@@ -1,0 +1,30 @@
+[15:10:54] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.17.3
+[15:10:54] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.17.3
+	   \-- mixinextras 0.5.0
+	- java 21
+	- minecraft 1.21.7
+[15:10:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/haball/fabric%201.21.7/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[15:10:59] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:11:00] [main/INFO]: No existing world data, creating new world
+[15:11:02] [main/INFO]: Loaded 1407 recipes
+[15:11:02] [main/INFO]: Loaded 1520 advancements
+[15:11:02] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[15:11:02] [Server thread/INFO]: Loading properties
+[15:11:02] [Server thread/INFO]: Default game type: SURVIVAL
+[15:11:02] [Server thread/INFO]: Generating keypair
+[15:11:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:11:03] [Server thread/INFO]: Using epoll channel type
+[15:11:03] [Server thread/INFO]: Preparing level "world"
+[15:11:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:11:08] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[15:11:09] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[15:11:09] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[15:11:10] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[15:11:10] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[15:11:11] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[15:11:11] [Worker-Main-3/INFO]: Preparing spawn area: 18%
+[15:11:12] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[15:11:12] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[15:11:13] [Server thread/INFO]: Time elapsed: 4541 ms
+[15:11:13] [Server thread/INFO]: Done (9.901s)! For help, type "help"
