@@ -1,6 +1,7 @@
-[17:24:39] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.17.3
-[17:24:39] [main/INFO]: Loading 40 mods:
+[17:46:08] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.17.3
+[17:46:09] [main/INFO]: Loading 41 mods:
 	- carryon 2.6.0
+	- chunky 1.4.40
 	- fabric-api 0.129.0+1.21.7
 	   |-- fabric-api-base 0.4.64+9ec45cd86c
 	   |-- fabric-api-lookup-api-v1 1.6.100+946bf4c36c
@@ -47,640 +48,114 @@
 	   \-- mixinextras 0.5.0
 	- java 21
 	- minecraft 1.21.7
-[17:24:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/haball/fabric%201.21.7/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[17:24:40] [main/INFO]: Compatibility level set to JAVA_21
-[17:24:41] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[17:24:51] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:24:51] [main/INFO]: Found new data pack carryon, loading it automatically
-[17:24:51] [main/INFO]: Found new data pack fabric, loading it automatically
-[17:24:51] [main/INFO]: Found new data pack fabric-convention-tags-v2, loading it automatically
-[17:24:53] [main/INFO]: No existing world data, creating new world
-[17:24:55] [main/INFO]: Loaded 1407 recipes
-[17:24:55] [main/INFO]: Loaded 1520 advancements
-[17:24:55] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 3.557 ms
-[17:24:56] [Server thread/INFO]: Starting minecraft server version 1.21.7
-[17:24:56] [Server thread/INFO]: Loading properties
-[17:24:56] [Server thread/INFO]: Default game type: SURVIVAL
-[17:24:56] [Server thread/INFO]: Generating keypair
-[17:24:56] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:24:56] [Server thread/INFO]: Using epoll channel type
-[17:24:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:24:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:24:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:24:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:24:56] [Server thread/INFO]: Preparing level "world"
-[17:25:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:25:10] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:11] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:11] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:12] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:12] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:12] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:13] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:14] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:14] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:15] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:15] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:15] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:16] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:17] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:17] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:17] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:18] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:18] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:19] [Worker-Main-1/INFO]: Preparing spawn area: 2%
-[17:25:19] [Server thread/INFO]: Time elapsed: 9562 ms
-[17:25:19] [Server thread/INFO]: Done (23.623s)! For help, type "help"
-[17:26:02] [Server thread/INFO]: MS16IQ[/127.88.174.89:34451] logged in with entity id 41 at (1.5, 73.0, -3.5)
-[17:26:02] [Server thread/INFO]: MS16IQ joined the game
-[17:26:15] [Server thread/INFO]: PhiloSip[/127.66.187.20:55305] logged in with entity id 130 at (0.5, 68.0, 10.5)
-[17:26:15] [Server thread/INFO]: PhiloSip joined the game
-[17:28:13] [Server thread/INFO]: MS16IQ has made the advancement [Stone Age]
-[17:28:38] [Server thread/INFO]: PhiloSip has made the advancement [Stone Age]
-[17:29:08] [Server thread/INFO]: MS16IQ has made the advancement [Getting an Upgrade]
-[17:29:19] [Server thread/INFO]: PhiloSip has made the advancement [Getting an Upgrade]
-[17:32:18] [Server thread/INFO]: PhiloSip was slain by MS16IQ
-[17:32:45] [Server thread/INFO]: PhiloSip was slain by MS16IQ
-[17:32:57] [Server thread/INFO]: MS16IQ was slain by PhiloSip
-[17:33:08] [Server thread/INFO]: PhiloSip was slain by MS16IQ
-[17:35:17] [Server thread/INFO]: MS16IQ suffocated in a wall
-[17:35:20] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@4375f3fe, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:20] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@2a6e0202, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:21] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@4725ef8, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:21] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@4d6b458b, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:21] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@21e99ffd, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:21] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@7bcde7d0, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:27] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@69c53c18, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:31] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@393b3e77, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:31] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@3ed63337, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:32] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@5a3ef7d8, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:32] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@1a3b6a16, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:32] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@1fb51ca4, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:32] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@b0be729, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:33] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@262651a7, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:33] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@670cf4af, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:33] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@50eb84d6, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:33] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@48d134d, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:33] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@10b2d112, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:33] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@109be627, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:33] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@1c5a1dd6, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:33] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@7021726b, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:34] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@761d073c, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:34] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@39787d06, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5628()" because "otherPlayer" is null
-	at knot/tschipp.carryon.common.carry.PlacementHandler.tryPlaceEntity(PlacementHandler.java:182) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/tschipp.carryon.events.CommonEvents.lambda$registerEvents$3(CommonEvents.java:85) ~[carryon-fabric-1.21.7-2.6.0.jar:?]
-	at knot/net.fabricmc.fabric.api.event.player.UseBlockCallback.lambda$static$0(UseBlockCallback.java:41) ~[fabric-events-interaction-v0-4.03+946bf4c36c-52260e1447eba27.jar:?]
-	at knot/net.minecraft.class_3225.handler$zdg000$fabric-events-interaction-v0$interactBlock(class_3225.java:585) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3225.method_14262(class_3225.java) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3244.method_12046(class_3244.java:1364) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2885.method_65081(class_2885.java:10) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:883) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:179) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:865) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:859) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:823) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:830) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:713) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:35:42] [Server thread/INFO]: [PhiloSip: Cleared 1 Item!]
-[17:36:22] [Server thread/INFO]: PhiloSip lost connection: Disconnected
-[17:36:22] [Server thread/INFO]: PhiloSip left the game
-[17:37:19] [Server thread/INFO]: MS16IQ lost connection: Disconnected
-[17:37:19] [Server thread/INFO]: MS16IQ left the game
+[17:46:09] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/haball/fabric%201.21.7/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[17:46:09] [main/INFO]: Compatibility level set to JAVA_21
+[17:46:10] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[17:46:20] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:46:20] [main/INFO]: Found new data pack carryon, loading it automatically
+[17:46:20] [main/INFO]: Found new data pack fabric, loading it automatically
+[17:46:20] [main/INFO]: Found new data pack fabric-convention-tags-v2, loading it automatically
+[17:46:22] [main/INFO]: No existing world data, creating new world
+[17:46:23] [main/INFO]: Loaded 1407 recipes
+[17:46:23] [main/INFO]: Loaded 1520 advancements
+[17:46:23] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.456 ms
+[17:46:23] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[17:46:23] [Server thread/INFO]: Loading properties
+[17:46:23] [Server thread/INFO]: Default game type: SURVIVAL
+[17:46:23] [Server thread/INFO]: Generating keypair
+[17:46:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:46:24] [Server thread/INFO]: Using epoll channel type
+[17:46:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:46:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:46:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:46:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:46:24] [Server thread/INFO]: Preparing level "world"
+[17:46:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:46:38] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:39] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:39] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:40] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:40] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:41] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:41] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:41] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:42] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:43] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:43] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:43] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:44] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:44] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:45] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:45] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:46] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:46] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:47] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:47] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:48] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[17:46:48] [Server thread/INFO]: Time elapsed: 10517 ms
+[17:46:48] [Server thread/INFO]: Done (24.250s)! For help, type "help"
+[17:46:55] [Server thread/INFO]: MS16IQ[/127.88.174.89:44169] logged in with entity id 13 at (25.5, 67.0, -57.5)
+[17:46:55] [Server thread/INFO]: MS16IQ joined the game
+[17:47:03] [Server thread/INFO]: [Not Secure] <MS16IQ> tt
+[17:47:06] [Server thread/INFO]: PhiloSip[/127.97.105.132:57359] logged in with entity id 149 at (23.5, 67.0, -50.5)
+[17:47:06] [Server thread/INFO]: PhiloSip joined the game
+[17:49:37] [Server thread/INFO]: MrTeddyBEAR[/127.187.101.170:44725] logged in with entity id 937 at (19.5, 67.0, -39.5)
+[17:49:37] [Server thread/INFO]: MrTeddyBEAR joined the game
+[17:50:36] [Server thread/INFO]: MS16IQ has made the advancement [Stone Age]
+[17:51:28] [Server thread/INFO]: MrTeddyBEAR was slain by MS16IQ
+[17:52:32] [Server thread/INFO]: MS16IQ has made the advancement [Getting an Upgrade]
+[17:55:54] [Server thread/INFO]: MrTeddyBEAR has made the advancement [Stone Age]
+[17:56:25] [Server thread/INFO]: MrTeddyBEAR has made the advancement [Getting an Upgrade]
+[17:57:36] [Server thread/INFO]: MrTeddyBEAR has made the advancement [Sweet Dreams]
+[17:57:36] [Server thread/INFO]: PhiloSip has made the advancement [Sweet Dreams]
+[17:57:38] [Server thread/INFO]: MS16IQ lost connection: Disconnected
+[17:57:38] [Server thread/INFO]: MS16IQ left the game
+[17:57:45] [Server thread/INFO]: MS16IQ[/127.88.174.89:37273] logged in with entity id 3010 at (84.90570239217774, 76.0, 42.93752519116215)
+[17:57:45] [Server thread/INFO]: MS16IQ joined the game
+[17:59:22] [Server thread/INFO]: [PhiloSip: Cleared 1 Item!]
+[17:59:49] [Server thread/INFO]: [Not Secure] <PhiloSip> carryon
+[17:59:59] [Server thread/INFO]: [PhiloSip: Cleared 1 Item!]
+[18:00:34] [Server thread/INFO]: [MrTeddyBEAR: Cleared 1 Item!]
+[18:00:54] [Server thread/INFO]: [PhiloSip: Cleared 1 Item!]
+[18:06:03] [Server thread/INFO]: MS16IQ has made the advancement [Acquire Hardware]
+[18:06:24] [Server thread/INFO]: MS16IQ has made the advancement [Hot Stuff]
+[18:07:59] [Server thread/INFO]: [Not Secure] <MS16IQ> ttt
+[18:08:09] [Server thread/INFO]: MS16IQ has made the advancement [Sweet Dreams]
+[18:08:23] [Server thread/INFO]: [Not Secure] <MS16IQ> zzzzzzzzz
+[18:08:24] [Server thread/INFO]: PhiloSip lost connection: Disconnected
+[18:08:24] [Server thread/INFO]: PhiloSip left the game
+[18:08:31] [Server thread/INFO]: PhiloSip[/127.97.105.132:49775] logged in with entity id 8507 at (272.1305697582145, 63.085764312744146, -703.5894341768607)
+[18:08:31] [Server thread/INFO]: PhiloSip joined the game
+[18:10:46] [Server thread/WARN]: MrTeddyBEAR moved too quickly! 3.7999736552862373,-9.30431682745754,-0.7974354473990388
+[18:15:56] [Server thread/WARN]: Oak Boat (vehicle of PhiloSip) moved too quickly! -1.7966659181319073,0.0,-10.243629531591068
+[18:15:56] [Server thread/WARN]: Oak Boat (vehicle of PhiloSip) moved too quickly! -1.865768453444673,0.0,-10.63761528280611
+[18:15:56] [Server thread/WARN]: Oak Boat (vehicle of PhiloSip) moved too quickly! -1.9348709887574387,0.0,-11.03160103402115
+[18:15:56] [Server thread/WARN]: Oak Boat (vehicle of PhiloSip) moved too quickly! -2.0039735240702043,0.0,-11.425586785236192
+[18:15:56] [Server thread/WARN]: Oak Boat (vehicle of PhiloSip) moved too quickly! -2.07307605938297,0.0,-11.819572536451233
+[18:15:56] [Server thread/WARN]: Oak Boat (vehicle of PhiloSip) moved too quickly! -2.1421785946957357,0.0,-12.213558287666274
+[18:17:09] [Server thread/INFO]: PhiloSip has made the advancement [Ice Bucket Challenge]
+[18:17:31] [Server thread/INFO]: [Not Secure] <MS16IQ> 1290 80 93
+[18:19:22] [Server thread/INFO]: Villager class_1646['Nitwit'/17117, l='ServerLevel[world]', x=1341.35, y=81.56, z=98.67] died, message: 'Nitwit was slain by MS16IQ'
+[18:19:28] [Server thread/INFO]: Villager class_1646['Nitwit'/17116, l='ServerLevel[world]', x=1342.70, y=81.75, z=98.49] died, message: 'Nitwit was slain by MS16IQ'
+[18:20:01] [Server thread/INFO]: PhiloSip lost connection: Disconnected
+[18:20:01] [Server thread/INFO]: PhiloSip left the game
+[18:20:07] [Server thread/INFO]: PhiloSip[/127.97.105.132:52823] logged in with entity id 20752 at (825.4630445789867, 63.085764312744146, -746.5833010767914)
+[18:20:07] [Server thread/INFO]: PhiloSip joined the game
+[18:25:02] [Server thread/INFO]: PhiloSip has made the advancement [Acquire Hardware]
+[18:25:08] [Server thread/INFO]: [Not Secure] <MS16IQ> tt
+[18:25:39] [Server thread/INFO]: MS16IQ has made the advancement [Isn't It Iron Pick]
+[18:27:23] [Server thread/INFO]: PhiloSip has made the advancement [Stone Age]
+[18:29:07] [Server thread/INFO]: MrTeddyBEAR was slain by PhiloSip
+[18:29:13] [Server thread/INFO]: PhiloSip has made the advancement [Getting an Upgrade]
+[18:29:51] [Server thread/INFO]: MrTeddyBEAR was slain by PhiloSip
+[18:32:37] [Server thread/INFO]: MS16IQ lost connection: Disconnected
+[18:32:37] [Server thread/INFO]: MS16IQ left the game
+[18:32:49] [Server thread/INFO]: MS16IQ[/127.88.174.89:35515] logged in with entity id 25766 at (1346.5639362302204, 80.0, 84.91609850009367)
+[18:32:49] [Server thread/INFO]: MS16IQ joined the game
+[18:32:53] [Server thread/INFO]: PhiloSip lost connection: Timed out
+[18:32:53] [Server thread/INFO]: PhiloSip left the game
+[18:32:53] [Server thread/WARN]: handleDisconnection() called twice
+[18:33:05] [Server thread/INFO]: MrTeddyBEAR lost connection: Disconnected
+[18:33:05] [Server thread/INFO]: MrTeddyBEAR left the game
+[18:33:07] [Server thread/INFO]: MS16IQ lost connection: Disconnected
+[18:33:07] [Server thread/INFO]: MS16IQ left the game
