@@ -1,0 +1,31 @@
+{
+  "max_health": 180.0,
+  "armor": 8.0,
+  "movement_speed": 0.25,
+  "flying_speed": 1.0,
+  "abilities": {
+    "horn_gore": {
+      "damage": 15.0
+    },
+    "bite": {
+      "damage": 15.0
+    },
+    "summon_storm": {},
+    "lightning_beam": {
+      "damage": 35.0
+    }
+  },
+  "extra": {
+    "taming_chance_base": 5.0,
+    "taming_chance_hearty": 3.0,
+    "beam_regen_per_tick": 0.0025,
+    "beam_drain_per_tick": 0.014,
+    "legacy_taming": false
+  },
+  "hints": {
+    "taming_chance_base": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",
+    "taming_chance_hearty": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",
+    "taming_chance": "Lower is easier: 1 = 100% per attempt, 100 = 1% per attempt",
+    "legacy_taming": "true = simple food taming, false = special mechanics (rodeo/low-health)"
+  }
+}

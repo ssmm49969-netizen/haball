@@ -1,0 +1,32 @@
+{
+  "max_health": 250.0,
+  "armor": 8.0,
+  "movement_speed": 0.28,
+  "flying_speed": 0.0,
+  "abilities": {
+    "horn_gore_phase2": {
+      "damage": 20.8
+    },
+    "bite_phase2": {
+      "damage": 50.0
+    },
+    "bite_phase1": {
+      "damage": 40.0
+    },
+    "horn_gore_phase1": {
+      "damage": 16.0
+    }
+  },
+  "extra": {
+    "swim_speed": 1.45,
+    "taming_chance": 6.0,
+    "legacy_taming": false
+  },
+  "hints": {
+    "taming_chance_base": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",
+    "taming_chance_hearty": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",
+    "taming_chance": "Lower is easier: 1 = 100% per attempt, 100 = 1% per attempt",
+    "legacy_taming": "true = simple food taming, false = special mechanics (rodeo/low-health)",
+    "swim_speed": "Min 0.1, Max 5.0"
+  }
+}

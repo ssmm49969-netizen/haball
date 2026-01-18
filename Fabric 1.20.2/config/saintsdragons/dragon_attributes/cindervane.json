@@ -1,0 +1,24 @@
+{
+  "max_health": 80.0,
+  "armor": 4.0,
+  "movement_speed": 0.45,
+  "flying_speed": 0.6,
+  "abilities": {
+    "bite": {
+      "damage": 12.0
+    },
+    "magma_volley": {
+      "damage": 20.0
+    }
+  },
+  "extra": {
+    "taming_chance_hearty": 2.0,
+    "taming_chance_base": 4.0
+  },
+  "hints": {
+    "taming_chance_base": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",
+    "taming_chance_hearty": "Lower is easier: 1 = 100% per feed, 100 = 1% per feed",
+    "taming_chance": "Lower is easier: 1 = 100% per attempt, 100 = 1% per attempt",
+    "legacy_taming": "true = simple food taming, false = special mechanics (rodeo/low-health)"
+  }
+}
